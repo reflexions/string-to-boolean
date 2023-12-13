@@ -1,0 +1,14 @@
+{
+	"name": "@reflexions/string-to-boolean",
+	"version": "1.0.0",
+	"description": "",
+	"exports": {
+		".": {
+			"require": "./cjs/StringToBoolean.cjs",
+			"default": "./esm/StringToBoolean.mjs"
+		}
+	},
+	"keywords": [],
+	"author": "Reflexions Data, LLC",
+	"license": "ISC"
+}
