@@ -3,6 +3,7 @@
 /**
  * Converts a string to a boolean, treating '0', 'false', 'FALSE', 'off' and falsy values like '' to false, the rest to true.
  * @param {string|boolean} value
+ * @returns Boolean
  */
 const stringToBoolean = (value) => typeof value === 'boolean'
 	? value // param is already boolean
