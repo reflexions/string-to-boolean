@@ -1,14 +1,34 @@
 {
 	"name": "@reflexions/string-to-boolean",
-	"version": "1.0.0",
-	"description": "",
+	"version": "1.0.1",
+	"description": "Converts strings to booleans, treating '0', 'false', and 'off' as false",
+	"main": "./cjs/StringToBoolean.cjs",
+	"module": "./esm/StringToBoolean.mjs",
+	"types": "./types/StringToBoolean.d.ts",
 	"exports": {
 		".": {
+			"types": "./types/StringToBoolean.d.ts",
 			"require": "./cjs/StringToBoolean.cjs",
-			"default": "./esm/StringToBoolean.mjs"
+			"import": "./esm/StringToBoolean.mjs"
 		}
 	},
-	"keywords": [],
+	"files": [
+		"esm",
+		"cjs",
+		"types"
+	],
+	"sideEffects": false,
+	"scripts": {
+		"test": "node --test"
+	},
+	"keywords": [
+		"string",
+		"boolean",
+		"convert",
+		"parse",
+		"utility",
+		"env"
+	],
 	"author": "Reflexions Data, LLC",
 	"license": "ISC"
 }
