@@ -1,6 +1,6 @@
 {
 	"name": "@reflexions/string-to-boolean",
-	"version": "1.0.1",
+	"version": "1.2.0",
 	"description": "Converts strings to booleans, treating '0', 'false', and 'off' as false",
 	"main": "./cjs/StringToBoolean.cjs",
 	"module": "./esm/StringToBoolean.mjs",
